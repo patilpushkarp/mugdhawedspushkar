@@ -95,20 +95,36 @@ body {
     color: #960512;
 }
 
-.time{
+.time-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.time {
     color: #e11e56;
-    width: 70%;
+    width: 15vmin;
     aspect-ratio: 1 / 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 1% 1%;
+    padding: 3%;
+}
 
+.time-number {
+    font-size: 2vmax;
+}
+
+.time-unit {
+    font-size: 1vmax;
 }
 
 .couple-content {
     padding: 7% 0%;
-    font-size: 5rem;
+    font-size: 5vmax;
 }
 
 .couple {
@@ -124,7 +140,7 @@ body {
     font-style: normal;
 }
 
-.hr-wrapper{
+.hr-wrapper {
     padding: 2% 0%;
 }
 
@@ -133,7 +149,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 .separator {
     display: flex;
@@ -141,7 +157,7 @@ body {
     align-content: center;
 }
 
-.person-info-wrapper{
+.person-info-wrapper {
     padding: 5%;
     width: 80%;
 }
@@ -155,7 +171,7 @@ body {
 
 .person-img img {
     width: 100%;
-    max-width: 60%;
+    max-width: 40vmin;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     object-fit: cover;
