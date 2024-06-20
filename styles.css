@@ -1,0 +1,272 @@
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    height: 10%;
+}
+
+.navbar-brand {
+    width: 5%;
+    height: 5%;
+    font-weight: 700;
+    margin: 0% 2%;
+    color: #e11e56;
+}
+
+
+
+.offcanvas-header {
+    border-bottom: 1px solid #99004d;
+}
+
+.offcanvas-body {
+    padding: 1rem;
+}
+
+.nav-item {
+    text-align: center;
+    padding: 12% 0%;
+    font-size: 3vmax;
+}
+
+
+
+
+#home {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('DSC_4858.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /* opacity: 0.6; */
+}
+
+#invitation {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('DSC_4532.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /* opacity: 0.6; */
+}
+
+#location {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('DSC_4139.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /* opacity: 0.6; */
+}
+
+.card {
+    background-color: transparent;
+    color: #99004d;
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    border-color: transparent;
+    padding: 5% 0%;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.special-font {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.greeting {
+    color: #960512;
+}
+
+.time{
+    color: #e11e56;
+    width: 70%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.couple-content {
+    padding: 7% 0%;
+    font-size: 5rem;
+}
+
+.couple {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.font-1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hr-wrapper{
+    padding: 2% 0%;
+}
+
+.name-font {
+    font-family: "Meddon", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.separator {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.person-info-wrapper{
+    padding: 5%;
+    width: 80%;
+}
+
+.person-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.person-img img {
+    width: 100%;
+    max-width: 60%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 5% 5%;
+    border: 2px solid #99004d;
+}
+
+.person-info {
+    text-align: center;
+    border: 2px solid #e11e56;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 4vmax;
+    color: #470103;
+}
+
+.info {
+    font-size: 3vmin;
+    color: #960512;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.location {
+    padding: 5% 10%;
+    text-align: center;
+    color: #960512;
+    margin-bottom: 2%;
+}
+
+.location-content {
+    margin: 0% 2%;
+    padding: 2% 2%;
+    border: 2px solid #e11e56;
+    border-radius: 10px;
+}
+
+.main-location {
+    font-weight: 700;
+    color: #470103;
+}
+
+.location-address {
+    font-weight: 700;
+    color: #470103;
+}
+
+.map-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#events {
+    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('DSC_4812.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    /* opacity: 0.6; */
+}
+
+.events {
+    overflow-x: hidden;
+}
+
+.events-invite {
+    /* padding: 10% 10%; */
+    text-align: center;
+    color: #e11e56;
+    margin-bottom: 3%;
+}
+
+.event-info-wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+}
+
+
+.event-info {
+    color: #470103;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+    max-width: 60%;
+    min-width: 60%;
+}
+
+.event-time {
+    color: #960512;
+}

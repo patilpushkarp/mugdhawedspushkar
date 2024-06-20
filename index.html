@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pushkar weds Mugdha</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.css"
+        integrity="sha512-i5IHYtHBVvbgT6M4ltVKNqF7fh/MTVfGh3ilW1gxxgmlMocsl8aYz28aF0Iph+ceUpun06UW9CpExog9qXqFKQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- <nav class="navbar navbar-light bg-transparent fixed-top">
+        <div class="container-fluid">
+            <img class="navbar-brand" src="pm_2.png" />
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#invitation">Invitation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Location</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-transparent fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand name-font" href="#">PM</a>
+            <!-- <img class="navbar-brand" src="pm_2.png"/> -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active font-1" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-1" href="#invitation">Invitation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-1" href="#events">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-1" href="#location">Location</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div id="fullpage">
+
+        <!-- First section -->
+        <div class="section active" id="home">
+
+            <div class="card mx-auto">
+                <div class="card-body">
+                    <h2 class="font-1 greeting">Our eldest son is getting married</h2>
+                    <hr class="hr-wrapper">
+                    <div class="row name-font">
+                        <div class="col-md-5">
+                            <h1 class="couple-content">Mugdha</h1>
+                        </div>
+                        <div class="col-md-2">
+                            <h2 class="couple-content">&</h2>
+                        </div>
+                        <div class="col-md-5">
+                            <h1 class="couple-content">Pushkar</h1>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="time glass font-1">
+                                <h1 class="time-number" id="days"></h1>
+                                <h3 class="time-unit">days</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="time glass font-1">
+                                <h1 class="time-number" id="hours"></h1>
+                                <h3 class="time-unit">hours</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="time glass font-1">
+                                <h1 class="time-number" id="minutes"></h1>
+                                <h3 class="time-unit">minutes</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="time glass font-1">
+                                <h1 class="time-number" id="seconds"></h1>
+                                <h3 class="time-unit">seconds</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Second section -->
+        <div class="section" id="invitation">
+
+            <div class="row vh-100">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <div class="pushkar-img">
+                        <div class="person-img">
+                            <img src="pushkar.JPG" alt="pushkar">
+                        </div>
+                    </div>
+                    <div class="person-info-wrapper glass">
+                        <div class="person-info">
+                            <h1 class="special-font name">Pushkar Patil</h1>
+                            <!-- <h1 class="font-1 info">Grands/o Indira and Sharadchandra Patil</h1> -->
+                            <h1 class="font-1 info">S/o Pratibha and Punjaji Patil</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-center">
+                    <div class="mugdha-img">
+                        <div class="person-img">
+                            <img src="mugdha.JPG" alt="mugdha">
+                        </div>
+                    </div>
+                    <div class="person-info-wrapper glass">
+                        <div class="person-info">
+                            <h1 class="special-font name">Mugdha Pachpande</h1>
+                            <h1 class="font-1 info">D/o Madhuri and Kishor Pachpande</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Third section -->
+        <div class="section" id="events">
+            <div class="events">
+                <div class="events-head">
+                    <h1 class="font-1 events-invite">We invite to bless the couple on the following occassions</h1>
+                </div>
+
+                <div class="events-body">
+
+                    <div class="row">
+
+                        <div class="col-md-6 event-info-wrapper ">
+                            <div class="event-info glass">
+                                <h1 class="font-1">Halad</h1>
+                                <h3 class="font-1 event-time">7:15 am</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 event-info-wrapper ">
+                            <div class="event-info glass">
+                                <h1 class="font-1">Mangalashtak</h1>
+                                <h3 class="font-1 event-time">6:45 pm</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 event-info-wrapper ">
+                            <div class="event-info glass">
+                                <h1 class="font-1">Dinner</h1>
+                                <h3 class="font-1 event-time">7:00 pm to 9:00 pm</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6 event-info-wrapper ">
+                            <div class="event-info glass">
+                                <h1 class="font-1">Vidai</h1>
+                                <h3 class="font-1 event-time">11:00 pm</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Fourth section -->
+        <div class="section map-wrapper" id="location">
+
+            <div class="location glass">
+                <div class="location-content">
+                    <h3 class="font-1">We are awaiting your presence at</h3>
+                    <h1 class="font-1 main-location">Shri Rameshwar Mangal Karyalay</h1>
+                    <h2 class="font-1 location-address">Gayatri Nagar, Bhusawal, Dist. Jalgaon, Maharashtra</h2>
+                </div>
+            </div>
+
+            <div class="map-container">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1367.0158955326533!2d75.7720576935754!3d21.03162822166054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd9a76415553d7b%3A0x49b6626b6efb7d82!2sShri%20Rameshwar%20Mangal%20Karyalay!5e0!3m2!1sen!2sin!4v1718771483367!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jul 11, 2024 18:45:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Output the result in an element with id="demo"
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            // If the count down is over, write some text 
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "WE ARE MARRIED !!!!!";
+            }
+        }, 1000);
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.min.js"
+        integrity="sha512-yHHLi2ZwgtW9QNVZd0asqMyWGJ6Kx73ijKlGWSi3MwYFB5ZzOJV8wPtopKr6muHk5SERgF3OB/2dZj3StlI34w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+
+<!-- Color theme -->
+<!-- 
+HEX CODES:
+#470103
+#960512
+#e11e56
+#f9a99e
+#f7ebed -->
