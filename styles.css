@@ -45,7 +45,7 @@ body {
 }
 
 #invitation {
-    background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)), url('DSC_4532.JPG');
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .7)), url('DSC_4532.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
@@ -132,6 +132,11 @@ body {
     font-size: 5vmax;
 }
 
+.couple-content-separator{
+    padding: 2% 0%;
+    font-size: 2vmax;
+}
+
 .couple {
     display: flex;
     align-items: center;
@@ -145,15 +150,16 @@ body {
     font-style: normal;
 }
 
-.hr-wrapper {
-    padding: 2% 0%;
-}
-
 .name-font {
     font-family: "Meddon", cursive;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+}
+
+.date-str {
+    /* font-size: 2vmax; */
+    padding: 2% 0%;
 }
 
 .separator {
